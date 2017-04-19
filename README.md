@@ -21,13 +21,24 @@ The second effect I got was a puddle tutorial which create a spot of water in a 
 over time following an albedo. That includes a couple of Particle Systems emitters and other Blueprint logic 
 to create a really cool effect. 
 
-![Alt text](https://github.com/eliodeberardinis/Tools_Middleware_2_Dungeon/blob/master/Pictures/Dungeon1.JPG?raw=true "Puddle")
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/Puddle.JPG "Puddle")
 
 ## 2.1 DROPS EMMITER
 
+The first step in the puddle effect is to create a Drops Emitter. This particle system creates a bunch of drops
+like a pipe when it´s leeking. The main features are the spawn rate (totally modifyable depending on how much
+you want the puddle to grow), the velocity (that will make drop quicker or not) and how much time they are going
+to live.
 
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/DropsEmitter.JPG "Drop Particles")
 
+## 2.2 DROPS HITTER
 
+The second step
+
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/DropsEmitter.JPG "Hit Particles")
+
+## 2.3 DROPS HITTER
 
 # 3. PARTICLE SYSTEMS
 
