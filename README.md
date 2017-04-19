@@ -13,7 +13,7 @@ Looking for tutorial and information, the first thing I found was nothing relate
 effect that simulate a waterfall perfectly. It was the manipulation of a material applied to a mesh. 
 The solution was pretty realistic applying a Fresnel and Depth Fade to it.
 
-![Alt text](https://github.com/eliodeberardinis/Tools_Middleware_2_Dungeon/blob/master/Pictures/Dungeon1.JPG?raw=true "Waterfall Material")
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/WaterfallMaterial.uasset "Waterfall Material")
 
 # 2. PUDDLE EFFECT
 
