@@ -42,7 +42,30 @@ parameters like velocity and size are set like in the drop emitter.
 
 ![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/DropsHitter.JPG "Hit Particles")
 
-## 2.3 DROPS HITTER
+## 2.3 PUDDLE
+
+## 2.4 PROBLEMS
+
+The puddle effect works fine but there is a slight problem with the particle emitters. Due to the material used to 
+create both emitters it doesn't have the specular element so when the animation is played the drops and splash 
+effect are not visible. I have to play with the lights to get them to be visible but due to my lack with experience
+with Unreal I didn't get that to work.
 
 # 3. PARTICLE SYSTEMS
+
+To solve the problem of the specularity of the material in the particle emitters I created another couple of particle
+system following the Unreal basic tutorials. One create single sparks that can substitute the hit emitter and then I 
+created a GPU Sprite Emitter to replace the Drops Emitter. 
+
+## 3.1 SPARKS PARTICLE SYSTEM
+
+## 3.2 GPU SPRITE PARTICLE SYSTEM
+
+
+
+
+
+
+
+
 
