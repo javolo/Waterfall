@@ -34,9 +34,13 @@ to live.
 
 ## 2.2 DROPS HITTER
 
-The second step
+The second step is create the effect of sparks when hit the floor. Another particle system is create for that.
+This one is a little bit different from the first one as it's uses a curve to set the velocity over life. Other
+parameters like velocity and size are set like in the drop emitter.
 
-![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/DropsEmitter.JPG "Hit Particles")
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/VelOverLife.JPG "Vel. Over Life")
+
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/DropsHitter.JPG "Hit Particles")
 
 ## 2.3 DROPS HITTER
 
