@@ -70,9 +70,12 @@ material created in the first section would give us good effect.
 
 ## 3.2 GPU SPRITE PARTICLE SYSTEM
 
+Using the spark particle system as base we wanted to create the waterfaall effect. In this case I created a GPU 
+emitter as we want to spawn a great number of particle systems. Using the GPU to do this work will increase the 
+end result of the effect without slowing our scene. The main feature to play with has been the size of the 
+particles spawn as that will give me the desired effect.
 
-
-
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/GPUSparks.JPG "Sparks")
 
 
 
