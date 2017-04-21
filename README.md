@@ -97,7 +97,10 @@ particles spawn as that will give me the desired effect.
 
 ![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/GPUSparks.JPG "GPU Sparks")
 
+# 4. FUTURE WORK
 
-
+As always there is room for improvement and we can get some work done in the rings effect and manipulate some
+of the materials to get the drops working much better. As this work is going to be integrated in a bigger project
+the creation of assets and textures can jump in the final result of the different particle systems and effects.
 
 
