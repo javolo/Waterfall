@@ -50,7 +50,10 @@ albedo and the puddle material.
 
 ![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/PuddleSet.JPG "Set Puddle")
 
-The second phase was to create small waves
+The second phase was to create small waves that go in accordance with the increase of the puddle. This is going to 
+help with the ring effect done in phase 3. In this phase we create also the specular and roughness components of
+the final material. The have same structure but one of the input variables have opposite value and the a couple of
+linear interpolation to get the right effect.
 
 ![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/SmallWaves.JPG "Small Waves")
 
