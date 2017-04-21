@@ -53,9 +53,20 @@ albedo and the puddle material.
 The puddle effect works fine but there is a slight problem with the particle emitters. Due to the material used to 
 create both emitters it doesn't have the specular element so when the animation is played the drops and splash 
 effect are not visible. I have to play with the lights to get them to be visible but due to my lack with experience
-with Unreal I didn't get that to work.
+with Unreal I didn't get that to work. In this step we specify as well the colours we want and will plug that into
+the final features of the material.
 
 ![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/PuddleSet.JPG "Set Puddle")
+
+The second phase was to create small waves
+
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/Small Waves.JPG "Small Waves")
+
+The last phase of the puddle is the creation of rings around the wet area. This is cool effect and you can create
+as many ring as you want, the only thing you have to do is duplicate the code to get one ring and then plug everyting
+correctly.
+
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/Rings.JPG "Small Waves")
 
 # 3. PARTICLE SYSTEMS
 
