@@ -64,7 +64,9 @@ The second phase was to create small waves
 
 The last phase of the puddle is the creation of rings around the wet area. This is cool effect and you can create
 as many ring as you want, the only thing you have to do is duplicate the code to get one ring and then plug everyting
-correctly.
+correctly. We start with a timer variable, joined with the work of increasing the puddle in the first phase and 
+few linear interpolation between materials we get a thick ring ring that starts in the centre of the puddle and 
+finishes in the edge of it.
 
 ![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/Rings.JPG "Small Waves")
 
