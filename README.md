@@ -44,7 +44,9 @@ parameters like velocity and size are set like in the drop emitter.
 
 ## 2.3 PUDDLE
 
-The last step in the process is to create the puddle effect. That was done in different steps
+The last step in the process is to create the puddle effect. That was done in different phases. The first phase 
+was to set the amount of water, how the edge of the water area is gonna increase and how to plug this with the 
+albedo and the puddle material.
 
 ## 2.4 PROBLEMS
 
@@ -52,6 +54,8 @@ The puddle effect works fine but there is a slight problem with the particle emi
 create both emitters it doesn't have the specular element so when the animation is played the drops and splash 
 effect are not visible. I have to play with the lights to get them to be visible but due to my lack with experience
 with Unreal I didn't get that to work.
+
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/PuddleSet.JPG "Set Puddle")
 
 # 3. PARTICLE SYSTEMS
 
@@ -75,7 +79,7 @@ emitter as we want to spawn a great number of particle systems. Using the GPU to
 end result of the effect without slowing our scene. The main feature to play with has been the size of the 
 particles spawn as that will give me the desired effect.
 
-![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/GPUSparks.JPG "Sparks")
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/GPUSparks.JPG "GPU Sparks")
 
 
 
