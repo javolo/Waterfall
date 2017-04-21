@@ -44,6 +44,8 @@ parameters like velocity and size are set like in the drop emitter.
 
 ## 2.3 PUDDLE
 
+The last step in the process is to create the puddle effect. That was done in different steps
+
 ## 2.4 PROBLEMS
 
 The puddle effect works fine but there is a slight problem with the particle emitters. Due to the material used to 
@@ -58,6 +60,13 @@ system following the Unreal basic tutorials. One create single sparks that can s
 created a GPU Sprite Emitter to replace the Drops Emitter. 
 
 ## 3.1 SPARKS PARTICLE SYSTEM
+
+This particle system is responsible to replace the splash effect when hits the floor or a rock. Manipulating the
+parameters like the velocity, the initial size and the spawn number we can simulate the same effect as before. 
+Initially the colour is orange which has nothing to be with waterfall but changing the texture or applying the 
+material created in the first section would give us good effect.
+
+![Alt text](https://github.com/javolo/Waterfall/blob/master/Content/Screenshots/Sparks.JPG "Sparks")
 
 ## 3.2 GPU SPRITE PARTICLE SYSTEM
 
